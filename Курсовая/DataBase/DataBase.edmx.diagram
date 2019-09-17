@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ff0ff92da5874366bb2d0f81c1255897" Name="Diagram1">
+        <EntityTypeShape EntityType="DataBaseModel.Аудитории" Width="1.5" PointX="7.5" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.Группы" Width="1.5" PointX="3" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.Дисциплины" Width="1.5" PointX="10.5" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.Журнал" Width="1.5" PointX="7.5" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.Занятие" Width="1.5" PointX="9.75" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.Кафедры" Width="1.5" PointX="3" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.Преподаватели" Width="1.5" PointX="5.25" PointY="16.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.Расписание" Width="1.5" PointX="7.5" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.Регистрация" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.Специальности" Width="1.5" PointX="3" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.Учащиеся" Width="1.5" PointX="5.25" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.Факультет" Width="1.5" PointX="0.75" PointY="9" IsExpanded="true" />
+        <AssociationConnector Association="DataBaseModel.FK_Занятие_Аудитории" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK__Группы__Код_факу__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK__Учащиеся__ID_гру__5EBF139D" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK_Занятие_Группы" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK__Дисциплин__ID_пр__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK__Дисциплин__Код_к__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK__Журнал__ID_дисци__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK_Занятие_Дисциплины" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK__Журнал__ID_препо__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK__Журнал__ID_Учаще__5629CD9C" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK_Занятие_Расписание" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK__Кафедры__Код_фак__59FA5E80" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK__Преподава__Код_к__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK_Расписание_Преподаватели" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK__Специальн__Код_ф__5CD6CB2B" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

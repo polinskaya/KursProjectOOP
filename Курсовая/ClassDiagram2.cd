@@ -1,0 +1,662 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Курсовая.AddForm.AddGroupViewModel" Collapsed="true">
+    <Position X="1.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAAAAABJAIAgCAEAgAAAAIAAACAABgCJCoABAAAEQAA=</HashCode>
+      <FileName>AddForm\AddGroupViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.AddForm.AddStudentViewModel" Collapsed="true">
+    <Position X="5.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAEBIAAAABiESABIAIIAAACgAAAQAAUARABEEAQA=</HashCode>
+      <FileName>AddForm\AddStudentViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.AddForm.AddGroupWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AddForm\GroupAdd.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Курсовая.AddForm.GroupTypeConvertor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="32.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AddForm\GroupAdd.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Курсовая.AddForm.StudentAdd" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AddForm\StudentAdd.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Курсовая.SubjAdd" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AddForm\SubjAdd.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Курсовая.BaseUser" Collapsed="true">
+    <Position X="1.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAQABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaseUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.BaseViewModel" Collapsed="true">
+    <Position X="10.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAEAgDAIBgAAAAAgAAAAAAAAAAEAEBAQAA=</HashCode>
+      <FileName>Common\BaseViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Курсовая.RelayCommand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="32.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEACAAQAAECAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\RelayCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Курсовая.LoginWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="34.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAgAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Views\LoginWindow\LoginWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Курсовая.LoginWindowViewModel" Collapsed="true">
+    <Position X="3.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAgACAACCAEAAAAAgAAAIAgAACmAIAAAgDAAAA=</HashCode>
+      <FileName>Views\LoginWindow\LoginWindowViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.MainWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAIAABAAAABAAAAAAAA=</HashCode>
+      <FileName>Views\MainWindow\MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Курсовая.RegistrationWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAiAAAAAAAAAAAAAAAgAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Views\RegistrationWindow\RegistrationWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Курсовая.RoleTypeConvertor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\RegistrationWindow\RegistrationWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Курсовая.WindowRegistrViewModel" Collapsed="true">
+    <Position X="12.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgACAACgAEAAIBIAAgAKAgAAimAQAEAgEAAAA=</HashCode>
+      <FileName>Views\RegistrationWindow\WindowRegistrViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.UserControlBook" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="32.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\UserControlBook.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Курсовая.UserControlCalendars" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="34.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\UserControlCalendars.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Курсовая.UserControlCheckboxesMarked" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\UserControlCheckboxesMarked.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Курсовая.UserControlNumber5Box" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="37.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\UserControlNumber5Box.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NavigationDrawerPopUpMenu2.App" Collapsed="true">
+    <Position X="30.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.Common.EnumHelper" Collapsed="true">
+    <Position X="37.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCAAQAIAAAAAAAAAAABAAEAQAIAAAAAAAgAAAAAACAA=</HashCode>
+      <FileName>Common\EnumHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.DataBase.DataBaseEntities" Collapsed="true">
+    <Position X="32.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACCAAoAAAAAABEgIwAAAAAAQAEAAAgAQ=</HashCode>
+      <FileName>DataBase\DataBase.Context.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.DataBase.sysdiagrams" Collapsed="true">
+    <Position X="30.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAIAAAAAAAAAAAAAAAQAAAFAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataBase\sysdiagrams.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.DataBase.Аудитории" Collapsed="true">
+    <Position X="30.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAEAAAAAAAAAgAAAAAAAgAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>DataBase\Аудитории.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.DataBase.Группы" Collapsed="true">
+    <Position X="32.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAIAAAAgAAAAAABABBiAAAAAAQAAAAEgAA=</HashCode>
+      <FileName>DataBase\Группы.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.DataBase.Дисциплины" Collapsed="true">
+    <Position X="34.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAIAAAAAAAIAEAAAIAAAAwAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>DataBase\Дисциплины.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.DataBase.Журнал" Collapsed="true">
+    <Position X="36" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMCAIAAAIAAAAGAAIAAAAAABAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>DataBase\Журнал.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.DataBase.Занятие" Collapsed="true">
+    <Position X="37.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAAAABAAAAAAACAAAAAAAAAFAgIAAAAAAAAgBAAAAAE=</HashCode>
+      <FileName>DataBase\Занятие.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.DataBase.Кафедры" Collapsed="true">
+    <Position X="39.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAoAAAAAIBAEBAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataBase\Кафедры.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.DataBase.Преподаватели" Collapsed="true">
+    <Position X="29" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAgAAAAAAAAAAAAAAAAAIBAgBQAAAAAAAAABAEAAQ=</HashCode>
+      <FileName>DataBase\Преподаватели.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.DataBase.Расписание" Collapsed="true">
+    <Position X="30.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAABAAAAAAAgAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>DataBase\Расписание.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.DataBase.Регистрация" Collapsed="true">
+    <Position X="32.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAABAAAAAAAAAAAABAAAAAQCAAAAAAAAAA=</HashCode>
+      <FileName>DataBase\Регистрация.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.DataBase.Специальности" Collapsed="true">
+    <Position X="34.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQCAAgAAACAAAAABCAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataBase\Специальности.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.DataBase.Учащиеся" Collapsed="true">
+    <Position X="36" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAgAIEAgAAACAAAAAAAAAAAAAQAAAAAABAAIAEAAA=</HashCode>
+      <FileName>DataBase\Учащиеся.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.DataBase.Факультет" Collapsed="true">
+    <Position X="37.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAADAAAAAAAQAAAAAAAQ=</HashCode>
+      <FileName>DataBase\Факультет.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.DataBase.Repositories.BaseRepository&lt;TEntity&gt;" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAABAAAAAAQLAAAAAABAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataBase\Repositories\BaseRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Курсовая.DataBase.Repositories.ClassesRepository" Collapsed="true">
+    <Position X="21.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataBase\Repositories\ClassesRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Курсовая.DataBase.Repositories.DepartmentRepository" Collapsed="true">
+    <Position X="1.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataBase\Repositories\DepartmentRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Курсовая.DataBase.Repositories.FacultyRepository" Collapsed="true">
+    <Position X="3.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataBase\Repositories\FacultyRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Курсовая.DataBase.Repositories.GroupRepository" Collapsed="true">
+    <Position X="6" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataBase\Repositories\GroupRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Курсовая.DataBase.Repositories.RegistrationRepository" Collapsed="true">
+    <Position X="8.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataBase\Repositories\RegistrationRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Курсовая.DataBase.Repositories.RoomsRepository" Collapsed="true">
+    <Position X="10.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataBase\Repositories\RoomsRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Курсовая.DataBase.Repositories.SpecialtyRepository" Collapsed="true">
+    <Position X="12.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataBase\Repositories\SpecialtyRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Курсовая.DataBase.Repositories.StudentsRepository" Collapsed="true">
+    <Position X="15" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataBase\Repositories\StudentsRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Курсовая.DataBase.Repositories.TeachersJournalRepository" Collapsed="true">
+    <Position X="17.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataBase\Repositories\TeachersJournalRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Курсовая.DataBase.Repositories.TeachersRepository" Collapsed="true">
+    <Position X="19.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataBase\Repositories\TeachersRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Курсовая.DataBase.Repositories.TeachersScheduleRepository" Collapsed="true">
+    <Position X="24" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataBase\Repositories\TeachersScheduleRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Курсовая.Properties.Resources" Collapsed="true">
+    <Position X="34.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.Properties.Settings" Collapsed="true">
+    <Position X="37.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.Services.GroupService" Collapsed="true">
+    <Position X="30.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\GroupService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.Services.RegistrationService" Collapsed="true">
+    <Position X="29" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAABAAAAAAAAAACgAAAAAAgAAAAAA=</HashCode>
+      <FileName>Services\RegistrationService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.StudentControl.StudentCalend" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StudentControl\StudentCalend.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Курсовая.StudentControl.StudentDisc" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="32.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StudentControl\StudentDisc.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Курсовая.StudentControl.StudentGroop" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="34.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StudentControl\StudentGroup.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Курсовая.StudentControl.StudentMarked" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="36" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StudentControl\StudentMarked.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Курсовая.StudentControl.StudentNote" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="37.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StudentControl\StudentNote.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Курсовая.StudentControl.StudentProf" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StudentControl\StudentProf.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Курсовая.Views.GroupWindow.GroupWindowViewModel" Collapsed="true">
+    <Position X="10.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAGAEiIAIABBAASABAgIIAAAIgAABQAgAAYABAAQAA=</HashCode>
+      <FileName>Views\GroupWindow\GroupWindowViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.Views.GroupWindow.UserControlPeople" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\GroupWindow\UserControlPeople.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Курсовая.Views.MainVindow.MainWindowViewModel" Collapsed="true">
+    <Position X="17" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAEADAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Views\MainWindow\MainWindowViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.Views.UiCommon.Dto.BaseUserDto" Collapsed="true">
+    <Position X="2.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAACAAAQAAAAAAA=</HashCode>
+      <FileName>Views\UiCommon\Dto\BaseUserDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.Views.UiCommon.Dto.DepartmentDto" Collapsed="true">
+    <Position X="34.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAEAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\UiCommon\Dto\DepartmentDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.Views.UiCommon.Dto.DtoHelper" Collapsed="true">
+    <Position X="36" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAECQAAAAAAAAAA=</HashCode>
+      <FileName>Views\UiCommon\Dto\DtoHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.Views.UiCommon.Dto.FacultyDto" Collapsed="true">
+    <Position X="39.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAEAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\UiCommon\Dto\FacultyDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.Views.UiCommon.Dto.GroupDto" Collapsed="true">
+    <Position X="29" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAIAEAAAAAAQAAAACAAAAAQAAAEAAAAA=</HashCode>
+      <FileName>Views\UiCommon\Dto\GroupDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.Views.UiCommon.Dto.StudentDto" Collapsed="true">
+    <Position X="0.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAEAAAABAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\UiCommon\Dto\StudentDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.Views.UserWindow.NewDepartmentViewModel" Collapsed="true">
+    <Position X="8" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAgAAAAECIAAACAAAAICAAAAAIABAEAAAKCEAAI=</HashCode>
+      <FileName>Views\UserWindow\NewDepartmentViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.Views.UserWindow.NewDepartmentWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="37.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\UserWindow\NewDepartmentWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Курсовая.Views.UserWindow.NewFacultyViewMode" Collapsed="true">
+    <Position X="14.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAIAAAAAAAAICAAAAAIABAEAAAAAEAAA=</HashCode>
+      <FileName>Views\UserWindow\NewFacultyViewMode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Курсовая.Views.UserWindow.NewFacultyWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\UserWindow\NewFacultyWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Курсовая.Views.UserWindow.UserControlUser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAgAAAAAAgAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Views\UserWindow\UserControlUser.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Курсовая.Views.UserWindow.SexTypeConvertor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Views\UserWindow\UserControlUser.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Курсовая.Views.UserWindow.UserViewModel" Collapsed="true">
+    <Position X="19.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAMAAAhgQKAABgAEADAAAAAQACAACAAAAUAAgCIMCAA=</HashCode>
+      <FileName>Views\UserWindow\UserViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Курсовая.DataBase.RepositoryInterfaces.IClassesRepository" Collapsed="true">
+    <Position X="1.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataBase\RepositoryInterfaces\IClassesRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Курсовая.DataBase.RepositoryInterfaces.IDepartmentRepository" Collapsed="true">
+    <Position X="6.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataBase\RepositoryInterfaces\IDepartmentRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Курсовая.DataBase.RepositoryInterfaces.IFacultyRepository" Collapsed="true">
+    <Position X="10.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataBase\RepositoryInterfaces\IFacultyRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Курсовая.DataBase.RepositoryInterfaces.IGroupRepository" Collapsed="true">
+    <Position X="15.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataBase\RepositoryInterfaces\IGroupRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Курсовая.DataBase.RepositoryInterfaces.IRegistrationRepository" Collapsed="true">
+    <Position X="17.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataBase\RepositoryInterfaces\IRegistrationRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Курсовая.DataBase.RepositoryInterfaces.IRepository&lt;TEntity&gt;" Collapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAQJAAAAAABAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataBase\RepositoryInterfaces\IRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Курсовая.DataBase.RepositoryInterfaces.IRoomsRepository" Collapsed="true">
+    <Position X="19.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataBase\RepositoryInterfaces\IRoomsRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Курсовая.DataBase.RepositoryInterfaces.ISpecialtyRepository" Collapsed="true">
+    <Position X="22" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataBase\RepositoryInterfaces\ISpecialtyRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Курсовая.DataBase.RepositoryInterfaces.IStudentsRepository" Collapsed="true">
+    <Position X="24.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataBase\RepositoryInterfaces\IStudentsRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Курсовая.DataBase.RepositoryInterfaces.ISubjectsRepository" Collapsed="true">
+    <Position X="26.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataBase\RepositoryInterfaces\ISubjectsRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Курсовая.DataBase.RepositoryInterfaces.ITeachersJournalRepository" Collapsed="true">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataBase\RepositoryInterfaces\ITeachersJournalRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Курсовая.DataBase.RepositoryInterfaces.ITeachersRepository" Collapsed="true">
+    <Position X="8.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataBase\RepositoryInterfaces\ITeachersRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Курсовая.DataBase.RepositoryInterfaces.ITeachersScheduleRepository" Collapsed="true">
+    <Position X="13" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataBase\RepositoryInterfaces\ITeachersScheduleRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Курсовая.Common.Sex" Collapsed="true">
+    <Position X="30.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Common\EnumHelper.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Курсовая.Common.UserRole" Collapsed="true">
+    <Position X="32.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\EnumHelper.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Курсовая.Common.GroupType" Collapsed="true">
+    <Position X="29" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Common\EnumHelper.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

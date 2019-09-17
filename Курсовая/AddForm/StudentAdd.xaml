@@ -1,0 +1,85 @@
+﻿<Window x:Class="Курсовая.AddForm.StudentAdd"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+       xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:local="clr-namespace:Курсовая.AddForm"
+        xmlns:convertor="clr-namespace:Курсовая.Views.UserWindow"
+      mc:Ignorable="d" d:DesignWidth="500" d:DataContext="{d:DesignInstance local:AddStudentViewModel}"
+      Title="StudentAdd" Height="383" Width="600" ResizeMode="CanMinimize">
+    <Window.Resources>
+        <convertor:SexTypeConvertor x:Key="SexTypeConvertor"></convertor:SexTypeConvertor>
+    </Window.Resources>
+    <Grid>
+        <Image Source="../../Res/background.jpg" Stretch="Fill" />
+        <Rectangle Margin="12,10,12,8" RadiusY="10" RadiusX="10" Fill="White"
+                   RenderTransformOrigin="0.5,0.5" Opacity="0.4">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform />
+                    <SkewTransform AngleX="-0.25" />
+                    <RotateTransform />
+                    <TranslateTransform X="-0.58" />
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+            <Rectangle.Effect>
+                <DropShadowEffect BlurRadius="15" Direction="0" RenderingBias="Quality" ShadowDepth="1"
+                                  Color="#FFBBBBBB" />
+            </Rectangle.Effect>
+        </Rectangle>
+        <Grid Margin="24,117,20,168" Opacity="40" />
+        <StackPanel VerticalAlignment="Bottom" Margin="33,0,45,65" Height="240" RenderTransformOrigin="0.5,0.5">
+            <StackPanel.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform />
+                    <SkewTransform AngleX="0.058" />
+                    <RotateTransform />
+                    <TranslateTransform X="0.166" />
+                </TransformGroup>
+            </StackPanel.RenderTransform>
+
+            <TextBox Margin="20,0,24,0" materialDesign:HintAssist.Hint="Фамилия"
+                     Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                     FontFamily="Champagne &amp; Limousines" FontSize="12" Text="{Binding UserSurname}" />
+
+            <TextBox Margin="20,0,24,0" materialDesign:HintAssist.Hint="Имя"
+                Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                FontFamily="Champagne &amp; Limousines" FontSize="12" Text="{Binding UserName}" HorizontalAlignment="Left" Width="378" />
+
+            <TextBox Margin="20,0,24,0" materialDesign:HintAssist.Hint="Отчество"
+                Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                FontFamily="Champagne &amp; Limousines" FontSize="12" Text="{Binding UserPatronymic}" />
+            <ComboBox Style="{StaticResource MaterialDesignFloatingHintComboBox}"
+                materialDesign:HintAssist.Hint="Пол" Text="{Binding Пол}" Height="40"
+                RenderTransformOrigin="0.497,0.375" ItemsSource="{Binding SexTypes}" SelectedItem="{Binding Sex, Converter={StaticResource SexTypeConvertor}}" Margin="20,0,24,0"/>
+
+            <ComboBox Margin="20,0,24,0" Style="{StaticResource MaterialDesignFloatingHintComboBox}"
+                materialDesign:HintAssist.Hint="Специальность" Text="{Binding Spec}" Height="39"
+                RenderTransformOrigin="0.497,0.375" ItemsSource="{Binding Specialtys}" SelectedItem="{Binding SelectedSpec}"/>
+
+            <Grid >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+
+                <ComboBox Grid.Column="0" Margin="20,0,24,0" Style="{StaticResource MaterialDesignFloatingHintComboBox}"
+                          materialDesign:HintAssist.Hint="Группа" Text="{Binding grooupst}" Height="39"
+                          RenderTransformOrigin="0.497,0.375" ItemsSource="{Binding Groups}" SelectedItem="{Binding SelectedGroup}"/>
+
+                <Button Grid.Column="1" HorizontalAlignment="Center" 
+                        Content="Добавить группу" Height="34" Command="{Binding NewGroupCommand}" />
+
+            </Grid>
+
+            
+
+        </StackPanel>
+        <Label Content="       Студент" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="167,10,163,0"
+            Foreground="Gray" FontSize="20" Height="36" RenderTransformOrigin="0.371,2.345" Width="170"/>
+        <Button Width="242" HorizontalAlignment="Center" Margin="131,283,127,27"
+            Content="Добавить студента" Height="34" Command="{Binding SaveCommand}" />
+    </Grid>
+</Window>

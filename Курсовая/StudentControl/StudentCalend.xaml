@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="Курсовая.StudentControl.StudentCalend"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Курсовая.StudentControl"
+             mc:Ignorable="d" 
+              d:DesignHeight="509" d:DesignWidth="1002">
+    <Grid>
+        <Rectangle Height="482" Margin="12,0,12,12" RadiusY="10" RadiusX="10" Fill="White"
+                   RenderTransformOrigin="0.5,0.5" Opacity="0.4" VerticalAlignment="Bottom">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform />
+                    <SkewTransform AngleX="-0.213" />
+                    <RotateTransform />
+                    <TranslateTransform X="-0.746" />
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+            <Rectangle.Effect>
+                <DropShadowEffect BlurRadius="15" Direction="0" RenderingBias="Quality" ShadowDepth="1"
+                                  Color="#FFBBBBBB" />
+            </Rectangle.Effect>
+        </Rectangle>
+        <Grid VerticalAlignment="Bottom" Margin="24,0,20,31" Height="468" Opacity="40" >
+            <Label Content=" Расписание" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="287,10,285,0"
+                   Foreground="Gray" FontSize="20" Height="36" RenderTransformOrigin="0.371,2.345" Width="158" />
+            <ListBox HorizontalAlignment="Left" Height="407" Margin="38,51,0,0" VerticalAlignment="Top" Width="874" Background="White"/>
+        </Grid>
+    </Grid>
+</UserControl>

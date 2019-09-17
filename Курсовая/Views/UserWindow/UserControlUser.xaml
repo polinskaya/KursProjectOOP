@@ -1,0 +1,74 @@
+﻿<UserControl x:Class="Курсовая.Views.UserWindow.UserControlUser"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:userWindow="clr-namespace:Курсовая.Views.UserWindow"
+             mc:Ignorable="d" d:DesignHeight="509" d:DesignWidth="1002" d:DataContext="{d:DesignInstance {x:Type userWindow:UserViewModel}}">
+    <UserControl.Resources>
+        <userWindow:SexTypeConvertor x:Key="SexTypeConvertor"></userWindow:SexTypeConvertor>
+    </UserControl.Resources>
+
+    <Grid>
+        <Rectangle Height="492" VerticalAlignment="Bottom" Margin="12,0,12,12" RadiusY="10" RadiusX="10" Fill="White"
+                   RenderTransformOrigin="0.5,0.5" Opacity="0.4">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform />
+                    <SkewTransform AngleX="-0.25" />
+                    <RotateTransform />
+                    <TranslateTransform X="-0.58" />
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+            <Rectangle.Effect>
+                <DropShadowEffect BlurRadius="15" Direction="0" RenderingBias="Quality" ShadowDepth="1"
+                                  Color="#FFBBBBBB" />
+            </Rectangle.Effect>
+        </Rectangle>
+        <Grid VerticalAlignment="Bottom" Margin="24,0,20,69" Height="430" Opacity="40" >
+            <Label Content="      Профиль" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="287,10,285,0"
+                   Foreground="Gray" FontSize="20" Height="36" RenderTransformOrigin="0.371,2.345" Width="158" />
+            <StackPanel VerticalAlignment="Bottom" Margin="17,0,479,2" Height="378" RenderTransformOrigin="0.5,0.5">
+                <StackPanel.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform />
+                        <SkewTransform AngleX="0.058" />
+                        <RotateTransform />
+                        <TranslateTransform X="0.166" />
+                    </TransformGroup>
+                </StackPanel.RenderTransform>
+                <TextBox Margin="20,10,0,10" materialDesign:HintAssist.Hint="Имя"
+                         Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                         FontFamily="Champagne &amp; Limousines" FontSize="12" Text="{Binding UserName}" HorizontalAlignment="Left" Width="418" />
+                <TextBox Margin="20,10,24,10" materialDesign:HintAssist.Hint="Фамилия"
+                         Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                         FontFamily="Champagne &amp; Limousines" FontSize="12" Text="{Binding UserSurname}" />
+                <TextBox Margin="20,10,24,10" materialDesign:HintAssist.Hint="Отчество"
+                         Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                         FontFamily="Champagne &amp; Limousines" FontSize="12" Text="{Binding UserPatronymic}" />
+                <ComboBox Style="{StaticResource MaterialDesignFloatingHintComboBox}"
+                materialDesign:HintAssist.Hint="Пол" Text="{Binding Пол}" Height="40"
+                RenderTransformOrigin="0.497,0.375" ItemsSource="{Binding SexList}" SelectedItem="{Binding Sex, Converter={StaticResource SexTypeConvertor}}" Margin="20,0,24,0"/>
+                <TextBox Margin="20,10,24,10" materialDesign:HintAssist.Hint="Почта"
+                         Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                         FontFamily="Champagne &amp; Limousines" FontSize="12" Text="{Binding Email}" />
+                <PasswordBox x:Name="password" Margin="20,10,24,10" materialDesign:HintAssist.Hint="Пароль"
+                             Style="{StaticResource MaterialDesignFloatingHintPasswordBox}"
+                             FontFamily="Champagne &amp; Limousines" FontSize="12" PasswordChanged="Password_OnPasswordChanged"/>
+                <ComboBox Margin="20,15,24,15" Style="{StaticResource MaterialDesignFloatingHintComboBox}"
+                    materialDesign:HintAssist.Hint="Кафедра" Text="{Binding Кафедра}" Height="40"
+                    RenderTransformOrigin="0.497,0.375" ItemsSource="{Binding Departments}" SelectedItem="{Binding SelectedDepartment}"/>
+
+
+            </StackPanel>
+            <StackPanel Margin="497,32,22,10">
+                <Button Width="178" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="134,0,127,0"
+                        Content="Добавить кафедру" Height="34" Command="{Binding NewDepartmentCommand}" />
+            </StackPanel>
+        </Grid>
+        <Button Width="241" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="387,0,374,30"
+                Content="Сохранить изменения" Height="34" Command="{Binding SaveCommand}" />
+
+    </Grid>
+</UserControl>

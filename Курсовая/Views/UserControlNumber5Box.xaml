@@ -1,0 +1,41 @@
+﻿<UserControl x:Class="Курсовая.UserControlNumber5Box"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Курсовая"
+             mc:Ignorable="d"
+         d:DesignHeight="509" d:DesignWidth="1002">
+    <Grid>
+        <Rectangle Height="479" Margin="12,18,12,0" RadiusY="10" RadiusX="10" Fill="White"
+                   RenderTransformOrigin="0.5,0.5" Opacity="0.4" VerticalAlignment="Top">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform />
+                    <SkewTransform AngleX="-0.25" />
+                    <RotateTransform />
+                    <TranslateTransform X="-0.58" />
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+            <Rectangle.Effect>
+                <DropShadowEffect BlurRadius="15" Direction="0" RenderingBias="Quality" ShadowDepth="1"
+                                  Color="#FFBBBBBB" />
+            </Rectangle.Effect>
+        </Rectangle>
+        <Grid VerticalAlignment="Bottom" Margin="24,0,20,31" Height="468" Opacity="40" >
+            <Label Content="       Оценки" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="401,7,399,0"
+                   Foreground="Gray" FontSize="20" Height="42" RenderTransformOrigin="0.371,2.345" Width="158" />
+        </Grid>
+        <DataGrid HorizontalAlignment="Left" Height="392" Margin="237,49,0,0" VerticalAlignment="Top" Width="724"/>
+        <ListBox HorizontalAlignment="Left" Height="356" Margin="44,85,0,0" VerticalAlignment="Top" Width="172" Background="#FFFAFAFA"/>
+        <Label Content="       Группы" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="44,46,786,0"
+            Foreground="Gray" FontSize="20" Height="34" RenderTransformOrigin="0.371,2.345" Width="172" />
+        <ScrollBar HorizontalAlignment="Left" Margin="940,49,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.029,-1.809" Height="392" Width="21"/>
+        <Button Width="148" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="533,0,321,31"
+            Content="Экспортировать" Height="32" Command="{Binding ''}" />
+        <Button Width="148" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="692,0,162,31"
+            Content="Импортировать" Height="32" Command="{Binding ''}" />
+        <Button Width="180" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="340,0,482,31"
+            Content="Сохранить изменения" Height="32" Command="{Binding ''}" />
+    </Grid>
+</UserControl>

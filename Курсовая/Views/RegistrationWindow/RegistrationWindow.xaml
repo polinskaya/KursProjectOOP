@@ -1,0 +1,71 @@
+﻿<Window x:Class="Курсовая.RegistrationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:Курсовая"
+        mc:Ignorable="d" d:DataContext="{d:DesignInstance {x:Type local:WindowRegistrViewModel}}"
+         Title="BSTU JOURNAL" Height="600" Width="400" Background="#FFE2F2E5" Icon="../../Res/journal.png" WindowStartupLocation="CenterOwner">
+        <Window.Resources>
+            <local:RoleTypeConvertor x:Key="RoleTypeConvertor"></local:RoleTypeConvertor>
+        </Window.Resources>
+    <Grid>
+        <Rectangle Height="402" VerticalAlignment="Bottom" Margin="20,0,20,38" RadiusY="10" RadiusX="10" Fill="White"
+                   RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform />
+                    <SkewTransform AngleX="-0.213" />
+                    <RotateTransform />
+                    <TranslateTransform X="-0.746" />
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+            <Rectangle.Effect>
+                <DropShadowEffect BlurRadius="15" Direction="0" RenderingBias="Quality" ShadowDepth="1"
+                                  Color="#FFBBBBBB" />
+            </Rectangle.Effect>
+        </Rectangle>
+        <Grid VerticalAlignment="Bottom" Margin="35,0,35,74" Height="366">
+            <Label Content="   Регистрация" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="87,10,87,0"
+                   Foreground="Gray" FontSize="18" Height="36" RenderTransformOrigin="0.371,2.345" Width="156" />
+            <StackPanel VerticalAlignment="Center" Margin="15,38,15,-19" Height="347" RenderTransformOrigin="0.5,0.5">
+                <StackPanel.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform />
+                        <SkewTransform AngleX="0.058" />
+                        <RotateTransform />
+                        <TranslateTransform X="0.166" />
+                    </TransformGroup>
+                </StackPanel.RenderTransform>
+                <TextBox Margin="0,10" materialDesign:HintAssist.Hint="Имя"
+                         Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                         FontFamily="Champagne &amp; Limousines" FontSize="12" Text="{Binding UserName}" />
+                <TextBox Margin="0,10" materialDesign:HintAssist.Hint="Фамилия"
+                         Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                         FontFamily="Champagne &amp; Limousines" FontSize="12" Text="{Binding UserSurname}" />
+                <TextBox Margin="0,10" materialDesign:HintAssist.Hint="Отчество"
+                         Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                         FontFamily="Champagne &amp; Limousines" FontSize="12" Text="{Binding UserPatronymic}" />
+                <TextBox Margin="0,10" materialDesign:HintAssist.Hint="Почта"
+                         Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                         FontFamily="Champagne &amp; Limousines" FontSize="12" Text="{Binding Email}" />
+                <PasswordBox x:Name="password" Margin="0,10" materialDesign:HintAssist.Hint="Пароль"
+                             Style="{StaticResource MaterialDesignFloatingHintPasswordBox}"
+                             FontFamily="Champagne &amp; Limousines" FontSize="12"
+                             PasswordChanged="Password_OnPasswordChanged" />
+                <ComboBox Margin="0,10" Style="{StaticResource MaterialDesignFloatingHintComboBox}"
+                          materialDesign:HintAssist.Hint="Роль" Text="{Binding Роль}" Height="40"
+                          RenderTransformOrigin="0.498,0.643" ItemsSource="{Binding UserRoles}"
+                          SelectedItem="{Binding SelectedUserRole, Converter={StaticResource RoleTypeConvertor}}" />
+            </StackPanel>
+        </Grid>
+        <Button Width="180" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="102,0,118,21"
+                Content="Зарегистрироваться" Height="34" Command="{Binding RegisterCommand}" />
+        <Image Source="../../Res/journal.png" Height="91" VerticalAlignment="Top" Margin="149,0,148,0"
+               RenderTransformOrigin="0.48,0.907" />
+        <Label Content=" BSTU JOURNAL" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="98,86,96,0"
+               Foreground="#FF474747" FontSize="24" Height="38" RenderTransformOrigin="0.371,2.345" Width="198"
+               FontWeight="Bold" />
+    </Grid>
+</Window>
